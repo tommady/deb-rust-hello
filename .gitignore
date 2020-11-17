@@ -13,3 +13,17 @@ Cargo.lock
 # Added by cargo
 
 /target
+
+# adding debian ignore files
+debian/*
+!debian/source
+!debian/changelog
+!debian/compat
+!debian/control
+!debian/copyright
+!debian/*.install
+!debian/rules
+
+# rust vendor ignore
+vendor/
+vendor.tar

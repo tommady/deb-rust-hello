@@ -1,0 +1,6 @@
+deb-rust (hello-1) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- tommady <>  Tue, 17 Nov 2020 09:24:47 +0000

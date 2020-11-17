@@ -1,0 +1,78 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: deb-rust
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .gitignore
+           Cargo.lock
+           Cargo.toml
+           README.md
+           src/main.rs
+           target/.rustc_info.json
+           target/debug/.cargo-lock
+           target/debug/.fingerprint/deb-rust-hello-8445953f2af5f15d/dep-test-bin-deb-rust-hello
+           target/debug/.fingerprint/deb-rust-hello-8445953f2af5f15d/invoked.timestamp
+           target/debug/.fingerprint/deb-rust-hello-8445953f2af5f15d/test-bin-deb-rust-hello
+           target/debug/.fingerprint/deb-rust-hello-8445953f2af5f15d/test-bin-deb-rust-hello.json
+           target/debug/deps/deb_rust_hello-8445953f2af5f15d.d
+           target/debug/deps/libdeb_rust_hello-8445953f2af5f15d.rmeta
+           target/debug/incremental/deb_rust_hello-34k32cnr5j9gr/s-ft50ixwcn9-1ob2xj4-1j801ta13jzkx/dep-graph.bin
+           target/debug/incremental/deb_rust_hello-34k32cnr5j9gr/s-ft50ixwcn9-1ob2xj4-1j801ta13jzkx/query-cache.bin
+           target/debug/incremental/deb_rust_hello-34k32cnr5j9gr/s-ft50ixwcn9-1ob2xj4-1j801ta13jzkx/work-products.bin
+           target/debug/incremental/deb_rust_hello-34k32cnr5j9gr/s-ft50ixwcn9-1ob2xj4.lock
+           target/rls/.rustc_info.json
+           target/rls/CACHEDIR.TAG
+           target/rls/debug/.cargo-lock
+           target/rls/debug/.fingerprint/deb-rust-hello-8445953f2af5f15d/dep-test-bin-deb-rust-hello
+           target/rls/debug/.fingerprint/deb-rust-hello-8445953f2af5f15d/invoked.timestamp
+           target/rls/debug/.fingerprint/deb-rust-hello-8445953f2af5f15d/test-bin-deb-rust-hello
+           target/rls/debug/.fingerprint/deb-rust-hello-8445953f2af5f15d/test-bin-deb-rust-hello.json
+           target/rls/debug/.fingerprint/deb-rust-hello-d1dff90c0b4db6e6/bin-deb-rust-hello
+           target/rls/debug/.fingerprint/deb-rust-hello-d1dff90c0b4db6e6/bin-deb-rust-hello.json
+           target/rls/debug/.fingerprint/deb-rust-hello-d1dff90c0b4db6e6/dep-bin-deb-rust-hello
+           target/rls/debug/.fingerprint/deb-rust-hello-d1dff90c0b4db6e6/invoked.timestamp
+           target/rls/debug/deps/deb_rust_hello-8445953f2af5f15d.d
+           target/rls/debug/deps/deb_rust_hello-d1dff90c0b4db6e6.d
+           target/rls/debug/deps/libdeb_rust_hello-8445953f2af5f15d.rmeta
+           target/rls/debug/deps/libdeb_rust_hello-d1dff90c0b4db6e6.rmeta
+           target/rls/debug/deps/save-analysis/deb_rust_hello-8445953f2af5f15d.json
+           target/rls/debug/deps/save-analysis/deb_rust_hello-d1dff90c0b4db6e6.json
+           target/rls/debug/incremental/deb_rust_hello-12st02wctqlt3/s-ft50j55wxm-1ae7u9v-2xjvoq4qem51y/dep-graph.bin
+           target/rls/debug/incremental/deb_rust_hello-12st02wctqlt3/s-ft50j55wxm-1ae7u9v-2xjvoq4qem51y/query-cache.bin
+           target/rls/debug/incremental/deb_rust_hello-12st02wctqlt3/s-ft50j55wxm-1ae7u9v-2xjvoq4qem51y/work-products.bin
+           target/rls/debug/incremental/deb_rust_hello-12st02wctqlt3/s-ft50j55wxm-1ae7u9v.lock
+           target/rls/debug/incremental/deb_rust_hello-34k32cnr5j9gr/s-ft50j56slc-167go7h-1u5cwfdfep8d0/dep-graph.bin
+           target/rls/debug/incremental/deb_rust_hello-34k32cnr5j9gr/s-ft50j56slc-167go7h-1u5cwfdfep8d0/query-cache.bin
+           target/rls/debug/incremental/deb_rust_hello-34k32cnr5j9gr/s-ft50j56slc-167go7h-1u5cwfdfep8d0/work-products.bin
+           target/rls/debug/incremental/deb_rust_hello-34k32cnr5j9gr/s-ft50j56slc-167go7h.lock
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE
+ MIT License
+ .
+ Copyright (c) 2020 lindroos
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
