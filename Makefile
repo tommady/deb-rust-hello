@@ -6,7 +6,8 @@ src/hello:
 	cargo build --release --target x86_64-unknown-linux-gnu
 
 install: src/hello
-	install -D target/release/deb-rust-hello $(DESTDIR)$(prefix)/bin/deb-rust-hello
+	install -D target/x86_64-unknown-linux-gnu/release/deb-rust-hello \
+		$(DESTDIR)$(prefix)/bin/deb-rust-hello
 
 clean:
 	cargo clean

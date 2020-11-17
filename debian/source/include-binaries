@@ -1,0 +1,3 @@
+target/x86_64-unknown-linux-gnu/release/.fingerprint/deb-rust-hello-b12c35add715bf18/dep-bin-deb-rust-hello
+target/x86_64-unknown-linux-gnu/release/deb-rust-hello
+target/x86_64-unknown-linux-gnu/release/deps/deb_rust_hello-b12c35add715bf18

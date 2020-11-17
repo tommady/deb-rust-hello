@@ -1,10 +1,11 @@
 #!/usr/bin/make -f
+export PATH := $(HOME)/.cargo/bin:$(PATH)
 
 %:
 	dh $@
 
 override_dh_auto_build:
-	env CARGO_HOME="$$(pwd)/target/cargo" dh_auto_build
+	dh_auto_build
 
 override_dh_auto_clean:
 	make clean

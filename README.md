@@ -9,6 +9,8 @@ steps:
 	the debmake error will tells you how,
 	then simply run *debmake* 
 1. write a Makefile
+1. follow the popsicle repo to modify the debian/rules file for rust
+1. run *debuild* 
 
 referenced articles:
 
