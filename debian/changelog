@@ -1,3 +1,9 @@
+deb-rust-hello (0.0.2) focal; urgency=low
+
+  * adding cargo dependency
+
+ -- tommady <lindroos.hsu@tommady.com>  Tue, 18 Nov 2020 05:47:00 +0000
+
 deb-rust-hello (0.0.1) focal; urgency=low
 
   * Initial release. Closes: #nnnn
