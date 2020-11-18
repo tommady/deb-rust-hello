@@ -19,6 +19,10 @@ steps:
 1. now facing the ubuntu build server cannot (find cargo command)[https://launchpadlibrarian.net/507624181/buildlog_ubuntu-focal-amd64.deb-rust-hello_0.0.1_BUILDING.txt.gz]
 1. found out this (article that I need to vendor the compiling tools up to launchpad...)[https://askubuntu.com/questions/1264696/how-to-build-this-rust-program-in-launchpad-it-fails-to-build]
 1. let me cry for a bit...
+1. after reading this (article)[https://help.launchpad.net/Packaging/PPA/BuildingASourcePackage#Depending_on_other_PPAs]
+1. I tried to add the (Mozilla Security Team PPA as my building dependency)[https://launchpad.net/~ubuntu-mozilla-security/+archive/ubuntu/rust-next/+packages]
+1. modify my control file like (this)[https://github.com/pop-os/popsicle/blob/master/debian/control] to add cargo as build-depends
+1. dput a new version then the (build)[https://launchpad.net/~tommady/+archive/ubuntu/deb-rust-hello/+build/20311444] success!
 
 referenced articles:
 
