@@ -1,3 +1,9 @@
+deb-rust-hello (0.0.4) focal; urgency=low
+
+  * retry to fix the strange not signing issue on build server 
+
+ -- tommady <lindroos.hsu@tommady.com>  Tue, 18 Nov 2020 08:57:00 +0000
+
 deb-rust-hello (0.0.3) focal; urgency=low
 
   * adding a postinst script
