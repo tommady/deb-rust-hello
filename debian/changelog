@@ -1,4 +1,4 @@
-deb-rust-hello (0.0.1) UNRELEASED; urgency=low
+deb-rust-hello (0.0.1) focal; urgency=low
 
   * Initial release. Closes: #nnnn
     <nnnn is the bug number of your ITP>

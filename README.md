@@ -10,9 +10,12 @@ steps:
 	then simply run *debmake* 
 1. write a Makefile
 1. follow the popsicle repo to modify the debian/rules file for rust
-1. run *debuild* 
+1. run *debuild* this should be build success
 1. register or login a (Launchpad account)[https://launchpad.net]
 1. register a GPG key for your account, I was using my Github GPG key for this
+1. modify the debian/changelog from UNRELEASED to the ubuntu code name, my case is *focal*
+1. run *debuild -S -k<your gpg key>* to sign the building
+1. go to upper level folder then run *debsign -k <your gpg key> <filename>.changes* to sign the source.changes file
 
 referenced articles:
 
