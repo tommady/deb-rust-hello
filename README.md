@@ -3,7 +3,7 @@ building a rust program into PPA
 
 the journey:
 
-1. install building tools
+1. install deb building tools like debhelpers
 1. using debmake to scaffold the project, 
 	need to build a deb-rust-hello.tar compression file in the previous folder, 
 	the debmake error will tells you how,

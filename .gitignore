@@ -22,6 +22,7 @@ debian/*
 !debian/copyright
 !debian/*.install
 !debian/rules
+!debian/postinst
 
 # rust vendor ignore
 vendor/
