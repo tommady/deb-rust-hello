@@ -6,6 +6,7 @@ Cargo.lock
 **/*.rs.bk
 
 /.pc
+/.cargo
 
 
 # Added by cargo

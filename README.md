@@ -16,6 +16,9 @@ steps:
 1. modify the debian/changelog from UNRELEASED to the ubuntu code name, my case is *focal*
 1. run *debuild -S -k<your gpg key>* to sign the building
 1. go to upper level folder then run *debsign -k <your gpg key> <filename>.changes* to sign the source.changes file
+1. now facing the ubuntu build server cannot (find cargo command)[https://launchpadlibrarian.net/507624181/buildlog_ubuntu-focal-amd64.deb-rust-hello_0.0.1_BUILDING.txt.gz]
+1. found out this (article that I need to vendor the compiling tools up to launchpad...)[https://askubuntu.com/questions/1264696/how-to-build-this-rust-program-in-launchpad-it-fails-to-build]
+1. let me cry for a bit...
 
 referenced articles:
 

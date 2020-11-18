@@ -2,7 +2,7 @@ Source: deb-rust-hello
 Section: devel
 Priority: optional
 Maintainer: tommady <lindroos.hsu@tommady.com>
-Build-Depends: debhelper (>=11~)
+Build-Depends: debhelper (>=11~), cargo
 Standards-Version: 4.3.0
 Homepage: <insert the upstream URL, if relevant>
 
